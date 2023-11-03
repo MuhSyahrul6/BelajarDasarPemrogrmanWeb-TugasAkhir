@@ -23,7 +23,7 @@ let isDeleting = false;
 
     if (words.length == currentTxt.length) {
         isDeleting = true;
-        setTimeout(function() {
+        setTimeout(function () {
             isDeleting = false;
             count++;
             txtIndex = 0;
